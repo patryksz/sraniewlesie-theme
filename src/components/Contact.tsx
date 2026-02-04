@@ -47,8 +47,7 @@ export default function Contact() {
                 <div>
                   <div className="font-semibold mb-1">Lokalizacja</div>
                   <div className="text-emerald-100">
-                    Puszcza Białowieska i okolice<br />
-                    Polska
+                    Absolutnie cała Polska
                   </div>
                 </div>
               </div>

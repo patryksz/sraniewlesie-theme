@@ -50,8 +50,7 @@ export default function Footer() {
                   +48 123 456 789
                 </a>
               </li>
-              <li>Puszcza Białowieska</li>
-              <li>Polska</li>
+              <li>Absolutnie cała Polska</li>
             </ul>
           </div>
         </div>

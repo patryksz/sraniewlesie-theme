@@ -3,23 +3,23 @@ import { MessageSquare, FileText, Calendar, Sparkles } from 'lucide-react';
 const steps = [
   {
     icon: MessageSquare,
-    title: 'Konsultacja',
-    description: 'Rozmawiamy o potrzebach Twojej firmy, liczbie uczestników i celach wyjazdu.'
+    title: 'Rozmowa',
+    description: 'Kontakt. Opowiadacie nam o zespole, o tym co czujecie. My słuchamy. Nie sprzedajemy - pytamy.'
   },
   {
     icon: FileText,
-    title: 'Propozycja',
-    description: 'Przygotowujemy spersonalizowaną ofertę z programem i wyceną dopasowaną do budżetu.'
+    title: 'Plan',
+    description: 'Planujemy wspólnie - Wy znacie swój zespół, my znamy las. Dogadamy się.'
   },
   {
     icon: Calendar,
-    title: 'Organizacja',
-    description: 'Ustalamy termin i zajmujemy się całą logistyką - od transportu po catering.'
+    title: 'Przygotowanie',
+    description: 'My przygotowujemy trasy, logistykę, możliwości, ubieramy w formę do zatwierdzenia. '
   },
   {
     icon: Sparkles,
-    title: 'Realizacja',
-    description: 'Jedziemy w las i razem tworzymy niezapomniane doświadczenie dla Twojego zespołu!'
+    title: 'Przyjazd',
+    description: 'Od tej pory Wasz zespół jest w naszych rękach. Każdy przeżyje przegodę na swój sposób.'
   }
 ];
 
