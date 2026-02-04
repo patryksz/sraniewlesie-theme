@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 bg-gradient-to-br from-emerald-900 to-emerald-950 text-white">
+    <section id="contact" className="py-24 bg-gradient-to-br from-emerald-900/80 to-emerald-950/80 text-white">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16">
           <div>

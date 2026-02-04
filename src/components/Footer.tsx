@@ -2,7 +2,7 @@ import { TreePine, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-emerald-950 text-white py-12">
+    <footer className="bg-emerald-950/80 backdrop-blur-sm text-white py-12 border-t border-emerald-700/50">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">

@@ -2,8 +2,39 @@ import { Leaf, TreePine, Wind } from 'lucide-react';
 
 export default function Philosophy() {
   return (
-    <section id="philosophy" className="py-24 bg-emerald-900 text-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-10"></div>
+    <section id="philosophy">
+      <div className="relative bg-gradient-to-br from-emerald-900/20 via-emerald-800/20 to-emerald-950/20 text-white overflow-hidden min-h-screen">
+      <div className="absolute inset-0 bg-gradient-to-tr from-emerald-900/80 via-emerald-800/80 to-emerald-950/80"></div>
+      <style>{`
+        @keyframes float {
+          0%, 100% { transform: translateY(0px) rotate(0deg); }
+          50% { transform: translateY(-20px) rotate(5deg); }
+        }
+        @keyframes float-reverse {
+          0%, 100% { transform: translateY(0px) rotate(0deg); }
+          50% { transform: translateY(20px) rotate(-5deg); }
+        }
+        .float-1 { animation: float 6s ease-in-out infinite; }
+        .float-2 { animation: float-reverse 8s ease-in-out infinite 1s; }
+        .float-3 { animation: float 7s ease-in-out infinite 0.5s; }
+        .float-4 { animation: float-reverse 9s ease-in-out infinite 1.5s; }
+      `}</style>
+      
+      {/* Animated SVG shapes */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-10 left-10 opacity-5 float-1">
+          <Leaf className="w-32 h-32 text-emerald-300" />
+        </div>
+        <div className="absolute top-20 right-20 opacity-5 float-2">
+          <TreePine className="w-40 h-40 text-emerald-300" />
+        </div>
+        <div className="absolute bottom-20 left-1/4 opacity-5 float-3">
+          <Wind className="w-36 h-36 text-emerald-300" />
+        </div>
+        <div className="absolute bottom-10 right-10 opacity-5 float-4">
+          <Leaf className="w-28 h-28 text-emerald-300" />
+        </div>
+      </div>
       
       <div className="relative z-10 container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
@@ -53,6 +84,7 @@ export default function Philosophy() {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import { TreePine, ArrowRight } from 'lucide-react';
-import bg from "../../assets/img/bg/pines-forest.jpg"
+import bg from "@assets/img/bg/pines-forest.jpg"
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -7,8 +7,8 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-950 text-white overflow-hidden">
-      <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: `url(${bg})` }}></div>
+    <div className="relative bg-gradient-to-br from-emerald-900/20 via-emerald-800/20 to-emerald-950/20 text-white overflow-hidden min-h-screen">
+      <div className="absolute inset-0 bg-gradient-to-br from-emerald-900/80 via-emerald-800/80 to-emerald-950/80"></div>
 
       <nav className="relative z-10 container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
