@@ -29,11 +29,10 @@ export default function Scenarios() {
   return (
     <section id="scenarios" className="relative py-24 overflow-hidden">
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 bg-cover bg-scroll"
         style={{
           backgroundImage: `url(${bg})`,
           backgroundAttachment: 'fixed',
-          backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       ></div>

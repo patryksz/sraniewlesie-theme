@@ -14,9 +14,8 @@ function App() {
     bg-no-repeat
     bg-[length:140%] bg-center
     sm:bg-[length:130%]
-    md:bg-[length:130%]
-    
-    bg-scroll md:bg-fixed" style={{ backgroundImage: `url(${bg})`, backgroundAttachment: 'fixed', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    bg-cover
+    bg-scroll" style={{ backgroundImage: `url(${bg})`, backgroundAttachment: 'fixed', backgroundPosition: 'center' }}>
       <Hero />
       <Philosophy />
       <Services />
