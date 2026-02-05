@@ -8,6 +8,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import bg from "@assets/img/bg/snow-forest.jpg"
 
+import ogImage from "@assets/img/og-image.jpg" // dump into assets dist folder
+
 function App() {
   return (
     <div className="min-h-screen
