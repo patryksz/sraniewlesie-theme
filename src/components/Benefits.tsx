@@ -12,9 +12,9 @@ export default function Benefits() {
     className="absolute inset-0"
     style={{
       backgroundImage: `url(${bg})`,
-      backgroundAttachment: 'fixed',
-      backgroundSize: 'cover',
       backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundAttachment: 'scroll'
     }}
   ></div>
 
