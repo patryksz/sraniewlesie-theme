@@ -27,7 +27,7 @@ export default function Benefits() {
       Czujesz, że zespół potrzebuje pauzy?
     </h3>
     <p className="text-xl text-emerald-50 mb-8 max-w-2xl mx-auto">
-      Wiele firm już wie - najlepsze integracje to te bez nacisku, bez powodów biznesowych. Po prostu dobry czas razem.
+      Wiele firm już wie, że najlepsze integracje to te niebanalne. 
     </p>
     <button
       onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}

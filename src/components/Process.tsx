@@ -1,4 +1,4 @@
-import { MessageSquare, FileText, Calendar, Sparkles } from 'lucide-react';
+import { MessageSquare, FileText, Calendar, Sparkles, ArrowRight } from 'lucide-react';
 
 const steps = [
   {
@@ -57,8 +57,8 @@ export default function Process() {
               </div>
 
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
-                  <div className="w-8 h-0.5 bg-emerald-300"></div>
+                <div className="hidden lg:flex absolute top-1/2 -right-7 -translate-y-1/2 z-10 items-center">
+                  <ArrowRight className="w-6 h-6 text-emerald-400" />
                 </div>
               )}
             </div>

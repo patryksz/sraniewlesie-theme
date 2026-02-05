@@ -29,7 +29,7 @@ export default function Hero() {
       <div className="relative z-10 container mx-auto px-6 py-24 md:py-32">
         <div className="max-w-4xl">
           <div className="inline-block bg-emerald-700/50 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-            <span className="text-sm font-semibold">Reset B2B dla firm</span>
+            <span className="text-sm font-semibold">Niebanalne integracje zespołów</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
@@ -39,7 +39,7 @@ export default function Hero() {
 
           <p className="text-xl md:text-2xl mb-8 text-emerald-50 leading-relaxed max-w-2xl">
             Las czyści. Czyści mózg, serce, relacje. To chwila gdzie zespół odpoczywa razem,
-            razem oddycha, słucha śpiewu ptaków i rozmawia rzeczywiście.
+            razem oddycha, gotuje i <span className="text-emerald-300">rozmawia</span>.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

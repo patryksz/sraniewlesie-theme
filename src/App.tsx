@@ -5,11 +5,11 @@ import Benefits from './components/Benefits';
 import Process from './components/Process';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import bg from "@assets/img/bg/pines-forest.jpg"
+import bg from "@assets/img/bg/snow-forest.jpg"
 
 function App() {
   return (
-    <div className="min-h-screen bg-white" style={{ backgroundImage: `url(${bg})`, backgroundAttachment: 'fixed', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div className="min-h-screen" style={{ backgroundImage: `url(${bg})`, backgroundAttachment: 'fixed', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <Hero />
       <Philosophy />
       <Services />

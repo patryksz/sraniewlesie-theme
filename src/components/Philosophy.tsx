@@ -22,16 +22,16 @@ export default function Philosophy() {
       
       {/* Animated SVG shapes */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-10 left-10 opacity-5 float-1">
+        <div className="absolute top-10 left-10 opacity-30 float-1">
           <Leaf className="w-32 h-32 text-emerald-300" />
         </div>
-        <div className="absolute top-20 right-20 opacity-5 float-2">
+        <div className="absolute top-20 right-20 opacity-30 float-2">
           <TreePine className="w-40 h-40 text-emerald-300" />
         </div>
-        <div className="absolute bottom-20 left-1/4 opacity-5 float-3">
+        <div className="absolute bottom-20 left-1/4 opacity-30 float-3">
           <Wind className="w-36 h-36 text-emerald-300" />
         </div>
-        <div className="absolute bottom-10 right-10 opacity-5 float-4">
+        <div className="absolute bottom-10 right-10 opacity-30 float-4">
           <Leaf className="w-28 h-28 text-emerald-300" />
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Philosophy() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl">
               <Leaf className="w-8 h-8 text-emerald-300 mb-4 mx-auto" />
-              <h3 className="text-lg font-bold mb-3 text-center">Fytoncydy</h3>
+              <h3 className="text-lg font-bold mb-3 text-center">Fitoncydy</h3>
               <p className="text-emerald-100 leading-relaxed">
                 Stop and smell the roses. Lotna chemia lasu, jego terpenowy areozol od zawsze nam towarzyszył, ale dopiero od niedawna został zastąpiony zapachem miasta.
               </p>
@@ -79,7 +79,7 @@ export default function Philosophy() {
           <div className="bg-emerald-800/20 backdrop-blur-sm border border-emerald-600/30 p-8 rounded-xl">
             <p className="text-lg text-emerald-100 leading-relaxed">
               Nie sprzedajemy uzdrawiania, ani duchowości. Sprzedajemy czas i przestrzeń. 
-              Reszta - to natura robi sama. Wy tylko musicie tam przyjść i pozwolić się sobie nawzajem poznać.
+              Resztę daje natura. Wy tylko musicie przyjść i pozwolić się sobie nawzajem poznać.
             </p>
           </div>
         </div>

@@ -17,7 +17,7 @@ const services = [
     icon: Compass,
     title: 'Droga bez kierunku',
     description: 'Zajęcia są zaplanowane, ale to grupa prowadzi.',
-    features: ['Spacery bez celu', 'Wspólne odkrywanie', 'Proces, nie harmonogram']
+    features: ['Spacery bez celu (albo z celem)', 'Wspólne odkrywanie', 'Proces, nie harmonogram']
   }
 ];
 
@@ -30,7 +30,7 @@ export default function Services() {
             Dlaczego las?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Przez niemal całą historię ludzkości żyliśmy poza miastami, w rytmie natury. Miasta to bardzo nowy wynalazek. Wróć do lasu.
+            Przez niemal całą historię ludzkości żyliśmy poza miastami, w rytmie natury. Miasta to bardzo nowy wynalazek. <span className="text-emerald-300">Wróć do lasu.</span>
           </p>
         </div>
 
