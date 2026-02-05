@@ -15,10 +15,10 @@
           <div className="flex items-center justify-between">
             <Logo />
             <div className="hidden md:flex gap-8">
-              <a href="#philosophy" className="hover:text-emerald-300 transition-colors">Dlaczego to działa</a>
+              <a href="#philosophy" className="hover:text-emerald-300 transition-colors">Nasza filozofia</a>
               <a href="#services" className="hover:text-emerald-300 transition-colors">Doświadczenia</a>
-              <a href="#benefits" className="hover:text-emerald-300 transition-colors">Co się zmienia</a>
-              <a href="#process" className="hover:text-emerald-300 transition-colors">Jak to działa</a>
+              <a href="#scenarios" className="hover:text-emerald-300 transition-colors">Jak to wygląda?</a>
+              <a href="#process" className="hover:text-emerald-300 transition-colors">Jak to działa?</a>
               <a href="#contact" className="hover:text-emerald-300 transition-colors">Kontakt</a>
             </div>
           </div>
