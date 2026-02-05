@@ -22,8 +22,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold mb-1">Email</div>
-                  <a href="mailto:kontakt@sraniewlesie.pl" className="text-emerald-300 hover:text-emerald-200 transition-colors">
-                    kontakt@sraniewlesie.pl
+                  <a href="mailto:kontakt@spaniewlesie.pl" className="text-emerald-300 hover:text-emerald-200 transition-colors">
+                    kontakt@spaniewlesie.pl
                   </a>
                 </div>
               </div>
@@ -35,7 +35,7 @@ export default function Contact() {
                 <div>
                   <div className="font-semibold mb-1">Telefon</div>
                   <a href="tel:+48123456789" className="text-emerald-300 hover:text-emerald-200 transition-colors">
-                    +48 123 456 789
+                    +48 577 161 291
                   </a>
                 </div>
               </div>
