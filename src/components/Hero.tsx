@@ -13,7 +13,7 @@
 
         <nav className="relative z-10 container mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
-            <Logo />
+            <Logo className="w-full" />
             <div className="hidden md:flex gap-8">
               <a href="#philosophy" className="hover:text-emerald-300 transition-colors">Nasza filozofia</a>
               <a href="#services" className="hover:text-emerald-300 transition-colors">Doświadczenia</a>
@@ -31,13 +31,12 @@
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Wróć do
-              <span className="block text-emerald-300">siebie</span>
+              Zespoły buduje się w
+              <span className="block text-emerald-300">spokoju</span>
             </h1>
 
             <p className="text-xl md:text-2xl mb-8 text-emerald-50 leading-relaxed max-w-2xl">
-              Las czyści. Czyści mózg, serce, relacje. To chwila gdzie zespół odpoczywa razem,
-              razem oddycha, gotuje i <span className="text-emerald-300">rozmawia</span>.
+              Las czyści i dostarcza. Czyści mózg, relacje, dostarcza spokoju ale <span className="text-emerald-300">i wrażeń</span>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -45,7 +44,7 @@
                 onClick={scrollToContact}
                 className="bg-white text-emerald-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-emerald-50 transition-all transform hover:scale-105 flex items-center justify-center gap-2"
               >
-                Zapytaj o ofertę
+                Zaplanujmy wyjście
                 <ArrowRight className="w-5 h-5" />
               </button>
               <a
@@ -62,20 +61,20 @@
           <div className="container mx-auto px-6 py-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2">MILIARDY</div>
-                <div className="text-emerald-100">Zadowolonych uczestników</div>
+                <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2">Obozy</div>
+                <div className="text-emerald-100">firmowe w lesie</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2">BEZ LIKU</div>
-                <div className="text-emerald-100">Zrealizowanych obozów</div>
+                <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2">Integracje</div>
+                <div className="text-emerald-100">proste, ale niebanalne</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2">100%</div>
-                <div className="text-emerald-100">Natury</div>
+                <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2">Team building</div>
+                <div className="text-emerald-100">przez shelter building</div>
               </div>
               <div>
-                <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2">0%</div>
-                <div className="text-emerald-100">PowerPointa</div>
+                <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2">Przygoda</div>
+                <div className="text-emerald-100">i tyle</div>
               </div>
             </div>
           </div>

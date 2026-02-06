@@ -2,34 +2,27 @@ import Hero from './components/Hero';
 import Philosophy from './components/Philosophy';
 import Services from './components/Services';
 import Scenarios from './components/Scenarios';
-import Benefits from './components/Benefits';
+import Interruption from './components/Interruption';
 import Process from './components/Process';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import bg from "@assets/img/bg/snow-forest.jpg"
 
-import ogImage from "@assets/img/og-image.jpg" // dump into assets dist folder
-
 function App() {
   return (
-    <div className="min-h-screen
-    bg-no-repeat
-    bg-[length:140%] bg-center
-    sm:bg-[length:130%]
-    bg-cover"
-
-    style={{
-      backgroundImage: `url(${bg})`,
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundAttachment: 'scroll'
-    }}
-  >
+    <div className="relative">
+      {/* Fixed background */}
+      <div 
+        className="fixed inset-0 -z-10 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${bg})` }}
+      />
+      
+      {/* Content */}
       <Hero />
       <Philosophy />
       <Services />
       <Scenarios />
-      <Benefits />
+      <Interruption />
       <Process />
       <Contact />
       <Footer />

@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { useState } from 'react';
+import ForestMap from './ForestMap.tsx';
 
 export default function Contact() {
   const [loading, setLoading] = useState(false);
@@ -61,7 +62,6 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16">
 
-          {/* LEWA STRONA */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Wyruszmy razem w las!
@@ -105,11 +105,12 @@ export default function Contact() {
                   <div className="font-semibold mb-1">Lokalizacja</div>
                   <div className="text-emerald-100">Absolutnie cała Polska</div>
                 </div>
+                <div><ForestMap /></div>
               </div>
             </div>
           </div>
 
-          {/* PRAWA STRONA - FORMULARZ */}
+
           <div className="bg-white rounded-2xl p-8 text-gray-900 shadow-lg relative">
             <h3 className="text-2xl font-bold mb-6">Wyślij zapytanie</h3>
 
