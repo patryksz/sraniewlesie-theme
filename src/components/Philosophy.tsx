@@ -51,7 +51,7 @@ export default function Philosophy() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl">
+            <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl hover:border-emerald-500/70 transition-all duration-300 hover:transform hover:scale-105">
               <Leaf className="w-8 h-8 text-emerald-300 mb-4 mx-auto" />
               <h3 className="text-lg font-bold mb-3 text-center">Fitoncydy</h3>
               <p className="text-emerald-100 leading-relaxed">
@@ -59,7 +59,7 @@ export default function Philosophy() {
               </p>
             </div>
 
-            <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl">
+            <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl hover:border-emerald-500/70 transition-all duration-300 hover:transform hover:scale-105">
               <TreePine className="w-8 h-8 text-emerald-300 mb-4 mx-auto" />
               <h3 className="text-lg font-bold mb-3 text-center">Resynchronizacja</h3>
               <p className="text-emerald-100 leading-relaxed">
@@ -67,7 +67,7 @@ export default function Philosophy() {
               </p>
             </div>
 
-            <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl">
+            <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl hover:border-emerald-500/70 transition-all duration-300 hover:transform hover:scale-105">
               <Wind className="w-8 h-8 text-emerald-300 mb-4 mx-auto" />
               <h3 className="text-lg font-bold mb-3 text-center">Ścieżka powrotna</h3>
               <p className="text-emerald-100 leading-relaxed">

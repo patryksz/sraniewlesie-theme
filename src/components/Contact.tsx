@@ -96,16 +96,15 @@ export default function Contact() {
                   </a>
                 </div>
               </div>
+            </div>
 
-              <div className="flex items-start gap-4">
-                <div className="bg-emerald-700 p-3 rounded-lg">
-                  <MapPin className="w-6 h-6" />
-                </div>
-                <div>
-                  <div className="font-semibold mb-1">Lokalizacja</div>
-                  <div className="text-emerald-100">Absolutnie cała Polska</div>
-                </div>
-                <div><ForestMap /></div>
+            <div className="mt-12 bg-emerald-800/30 backdrop-blur-sm border border-emerald-600/40 rounded-2xl p-8 hover:border-emerald-500/60 transition-all duration-300">
+              <h3 className="text-2xl font-bold mb-4 text-center">Zasięg działania</h3>
+              <p className="text-emerald-100 text-center mb-6">
+                Docieramy do każdego zakątka Polski. Las jest wszędzie.
+              </p>
+              <div className="flex justify-center">
+                <ForestMap />
               </div>
             </div>
           </div>
