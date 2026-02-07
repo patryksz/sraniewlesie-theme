@@ -40,22 +40,24 @@ export default function Philosophy() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-block bg-emerald-700/50 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-              <span className="text-sm font-semibold">O co chodzi?</span>
+              <span className="text-sm font-semibold">Dlaczego las?</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Offline
             </h2>
             <p className="text-xl text-emerald-100 leading-relaxed">
-              Zachwycać życiem można się po polsku, norwesku, duńsku, japońsku, po swojemu. Każdy naród ma termin na głębokie przeżywanie, ale mało kto potrafi głęboko przeżywać.
+              Japończycy mają shinrin-yoku, Norwegowie friluftsliv. Każda kultura wie, że las regeneruje. 
+              Ale mało kto stosuje to świadomie w biznesie wysokiego szczebla.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl hover:border-emerald-500/70 transition-all duration-300 hover:transform hover:scale-105">
               <Leaf className="w-8 h-8 text-emerald-300 mb-4 mx-auto" />
-              <h3 className="text-lg font-bold mb-3 text-center">Fitoncydy</h3>
+              <h3 className="text-lg font-bold mb-3 text-center">Neurobiologia spokoju</h3>
               <p className="text-emerald-100 leading-relaxed">
-                Stop and smell the roses. Lotna chemia lasu, jego terpenowy areozol od zawsze nam towarzyszył, ale dopiero od niedawna został zastąpiony zapachem miasta.
+                Fitoncydy - lotne związki chemiczne lasu - obniżają kortyzol i aktywują układ parasympatyczny. 
+                To nie ezoteryka, to biochemia. Twój mózg wie, czego potrzebuje.
               </p>
             </div>
 
@@ -63,23 +65,25 @@ export default function Philosophy() {
               <TreePine className="w-8 h-8 text-emerald-300 mb-4 mx-auto" />
               <h3 className="text-lg font-bold mb-3 text-center">Resynchronizacja</h3>
               <p className="text-emerald-100 leading-relaxed">
-                Nasz zegar biologiczny się rozregulował. Las ma rytm. Kiedy ostatnio miałeś chociaż godzinę dla siebie, bez notyfikacji, muzyki, syntetycznych sygnałów?
+                Kolejne Q, kolejny raport, kolejny email. Kiedy ostatnio miałeś czas pomyśleć? 
+                Nie reagować - myśleć. Las ma rytm, który pozwala umysłowi się zresetować.
               </p>
             </div>
 
             <div className="bg-emerald-800/40 backdrop-blur-sm border border-emerald-600/50 p-8 rounded-xl hover:border-emerald-500/70 transition-all duration-300 hover:transform hover:scale-105">
               <Wind className="w-8 h-8 text-emerald-300 mb-4 mx-auto" />
-              <h3 className="text-lg font-bold mb-3 text-center">Ścieżka powrotna</h3>
+              <h3 className="text-lg font-bold mb-3 text-center">Autentyczna obecność</h3>
               <p className="text-emerald-100 leading-relaxed">
-                Wejdziecie razem i wyjdziecie razem, ale razem też coś zyskacie. Poznacie siebie nazwajem, ale dowiecie się czegoś o sobie. I to coś zostanie na zawsze.
+                W sali konferencyjnej jesteście w rolach. W lesie - po prostu ludźmi. 
+                Prawdziwe decyzje podejmują ludzie, którzy się nawzajem znają.
               </p>
             </div>
           </div>
 
           <div className="bg-emerald-800/20 backdrop-blur-sm border border-emerald-600/30 p-8 rounded-xl">
             <p className="text-lg text-emerald-100 leading-relaxed">
-              Nie sprzedajemy uzdrawiania, ani duchowości. Sprzedajemy czas i przestrzeń. 
-              Resztę daje natura. Wy tylko musicie przyjść i pozwolić się sobie nawzajem poznać.
+              Nie sprzedajemy team buildingu ani duchowości. Sprzedajemy przestrzeń - do myślenia, 
+              do rozmów, które nie zdarzają się w biurze. <span className="text-emerald-300 font-semibold">Las daje kontekst. Wy podejmujecie decyzje.</span>
             </p>
           </div>
         </div>

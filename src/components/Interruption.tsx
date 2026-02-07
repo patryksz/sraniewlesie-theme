@@ -19,21 +19,24 @@ export default function Interruption() {
   ></div>
 
   {/* Overlay gradient */}
-  <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/60 to-emerald-700/60"></div>
+  <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/70 to-emerald-700/70"></div>
 
   {/* Treść */}
   <div className="relative p-12">
-    <h3 className="text-3xl font-bold mb-4">
-      Czujesz, że zespół potrzebuje pauzy?
+    <h3 className="text-3xl md:text-4xl font-bold mb-4">
+      Ostatni Q pokazał, że strategia wymaga korekty?
     </h3>
-    <p className="text-xl text-emerald-50 mb-8 max-w-2xl mx-auto">
-      Nie wydawaj pieniędzy na kolejne wyjście zespołu do pubu.
+    <p className="text-xl text-emerald-50 mb-2 max-w-3xl mx-auto">
+      Kolejne meeting room nie da Wam odpowiedzi. 
+    </p>
+    <p className="text-lg text-emerald-100 mb-8 max-w-2xl mx-auto">
+      Czasem najlepsze decyzje powstają, gdy przestajecie udawać, że wszystko pod kontrolą.
     </p>
     <button
       onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
       className="bg-white text-emerald-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-emerald-50 transition-all transform hover:scale-105"
     >
-      Zaplanujmy obóz
+      Zarezerwuj executive retreat
     </button>
   </div>
 </div>
