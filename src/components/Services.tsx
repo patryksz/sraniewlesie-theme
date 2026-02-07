@@ -2,22 +2,22 @@ import { Users, Flame, Compass, Brain, Target, Shield } from 'lucide-react';
 
 const services = [
   {
-    icon: Brain,
-    title: 'Executive Retreats',
-    description: 'Dla zarządów i C-level. 48 godzin bez notyfikacji. Strategia, która nie rodzi się w PowerPoint.',
-    features: ['Sesje strategiczne w terenie', 'Czas na trudne rozmowy', 'Decyzje z perspektywy']
+    icon: Flame,
+    title: 'Powrót do ognia',
+    description: 'Przez 99% historii ludzkości siedzieliśmy przy ognisku. Nie w sale conference room. Ogień daje przestrzeń - do rozmów, które nie zdarzają się w biurze.',
+    features: ['Wspólne gotowanie', 'Wieczory przy ognisku', 'Rozmowy bez agendy']
   },
   {
-    icon: Target,
-    title: 'Leadership w praktyce',
-    description: 'Kto prowadzi, gdy nie ma tytułu? Kto decyduje, gdy nikt nie musi słuchać? Las to test.',
-    features: ['Naturalne przywództwo', 'Decyzje pod presją', 'Autentyczna współpraca']
+    icon: Compass,
+    title: 'Natura jako kontekst',
+    description: 'Las nie dba o Wasz budżet ani o KPI. To zmusza do obecności. Bez notyfikacji, bez Slacka, bez "muszę skoczyć na 5 minut".',
+    features: ['Pełna obecność', 'Czas bez zakłóceń', 'Reset umysłu']
   },
   {
-    icon: Shield,
-    title: 'Zarząd offline',
-    description: 'Wiecie wszystko o KPI. Ale czy znacie siebie nawzajem? Las zmusza do obecności.',
-    features: ['Prawdziwe rozmowy', 'Budowanie zaufania', 'Poznanie poza rolami']
+    icon: Users,
+    title: 'Poznanie poza rolami',
+    description: 'W sali konferencyjnej jesteście w rolach. W lesie - po prostu ludźmi. Decyzje podejmują ludzie, którzy się nawzajem znają.',
+    features: ['Autentyczne rozmowy', 'Budowanie zaufania', 'Relacje, nie tytuły']
   }
 ];
 
@@ -27,14 +27,14 @@ export default function Services() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block bg-emerald-700/50 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-            <span className="text-sm font-semibold">Dla kogo?</span>
+            <span className="text-sm font-semibold">Dlaczego las?</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Kadra zarządzająca, która myśli poważnie
+            Miasto to bardzo nowy wynalazek
           </h2>
           <p className="text-xl text-emerald-100 max-w-3xl mx-auto">
-            To nie jest wyjazd integracyjny. To narzędzie dla CEO, zarządów i partnerów, 
-            którzy rozumieją, że <span className="text-emerald-300">najlepsze decyzje nie rodzą się w biurze</span>.
+            Przez niemal całą historię ludzkości żyliśmy poza miastami, w rytmie natury. 
+            Sale konferencyjne mamy od około 100 lat. <span className="text-emerald-300">Las - od zawsze.</span>
           </p>
         </div>
 
@@ -69,10 +69,10 @@ export default function Services() {
         </div>
 
         <div className="bg-emerald-800/20 backdrop-blur-sm border border-emerald-600/30 p-12 rounded-xl max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold mb-6 text-center">Typowi uczestnicy</h3>
+          <h3 className="text-2xl font-bold mb-6 text-center">Dla kogo?</h3>
           <div className="grid md:grid-cols-2 gap-6 text-emerald-100">
             <div>
-              <h4 className="font-semibold text-white mb-3">Idealny profil:</h4>
+              <h4 className="font-semibold text-white mb-3">Typowi uczestnicy:</h4>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 mt-2"></div>
@@ -84,7 +84,7 @@ export default function Services() {
                 </li>
                 <li className="flex items-start">
                   <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 mt-2"></div>
-                  <span>C-level executives (CFO, COO, CTO)</span>
+                  <span>C-level executives</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 mt-2"></div>
@@ -93,23 +93,23 @@ export default function Services() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold text-white mb-3">Dla firm, które:</h4>
+              <h4 className="font-semibold text-white mb-3">Kiedy ma sens?</h4>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 mt-2"></div>
-                  <span>Stoją przed strategicznym zwrotem</span>
+                  <span>Strategiczny zwrot w firmie</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 mt-2"></div>
-                  <span>Budują nowy zarząd lub partnership</span>
+                  <span>Nowy zarząd lub partnership</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 mt-2"></div>
-                  <span>Potrzebują autentycznego zaufania na górze</span>
+                  <span>Potrzeba zaufania na górze</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 mt-2"></div>
-                  <span>Rozumieją wartość czasu poza biurem</span>
+                  <span>Czas bez rozpraszaczy</span>
                 </li>
               </ul>
             </div>

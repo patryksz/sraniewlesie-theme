@@ -1,27 +1,27 @@
-import { Flame, MapPin, Footprints, Users, Brain, Target } from 'lucide-react';
+import { Flame, MapPin, Footprints, Users, Compass, Target } from 'lucide-react';
 import bg from "@assets/img/bg/pines-forest.jpg"
 
 const scenarios = [
   {
-    icon: Brain,
-    title: 'Strategy Retreat',
-    tagline: 'Deep Work Session',
-    description: '48h offline. Zero slajdów, zero sal konferencyjnych. Ogień, las, trudne pytania. Pracowaliście nad strategią w biurze - teraz przetestujcie ją w terenie. Decyzje podejmują się łatwiej, gdy macie czas pomyśleć.',
-    highlights: ['Sesje strategiczne 2-4h', 'Moderowane rozmowy przy ognisku', 'Czas na indywidualne refleksje', 'Konkretne wnioski i action points']
+    icon: Flame,
+    title: 'Noc w lesie',
+    tagline: 'Overnight Camp',
+    description: 'Razem zbieracie drewno. Razem rozniecacie ogień. Razem przygotowujecie posiłek. Wszystko powoli, bez pośpiechu. Wieczór przy ognisku, rozmowy do białego rana, sen pod gwiazdami. Przestrzeń do myślenia. Wy decydujecie, o czym.',
+    highlights: ['Zbieranie drewna', 'Rozpalanie ogniska', 'Wspólne gotowanie', 'Noc pod gwiazdami']
   },
   {
-    icon: Target,
-    title: 'Leadership Test',
-    tagline: 'Who Leads When Nobody Has To Follow',
-    description: 'Bez tytułów, bez hierarchii. Navigacja w terenie, rozpalanie ognia, organizacja obozu. Kto decyduje? Kto prowadzi? Kto słucha? Zarząd poznaje siebie w sytuacji, gdzie nikt nikogo nie musi słuchać.',
-    highlights: ['Scenariusze decyzyjne', 'Naturalne role w zespole', 'Test komunikacji pod presją', 'Feedback 360° w praktyce']
+    icon: Footprints,
+    title: 'Polowanie',
+    tagline: 'Ed Stafford Vibe',
+    description: 'Uciekam w las. Zespół musi mnie odnaleźć. To test strategii, komunikacji i determinacji. Kto podejmie inicjatywę? Kto poprowadzi? Kto się nie podda? Prawdziwy test zespołu w akcji - bez tytułów, tylko decyzje.',
+    highlights: ['Test strategii', 'Naturalne przywództwo', 'Komunikacja w terenie', 'Determinacja zespołu']
   },
   {
-    icon: Users,
-    title: 'Board Bonding',
-    tagline: 'Beyond The Boardroom',
-    description: 'Znacie się z Zoom i z kwartałów. Ale czy naprawdę się znacie? Dwa dni bez masek korporacyjnych. Wspólne gotowanie, noc pod gwiazdami, rozmowy do rana. Zaufanie buduje się offline.',
-    highlights: ['Wspólne wyzwania', 'Autentyczne rozmowy', 'Budowanie zaufania', 'Poznanie poza rolami']
+    icon: Compass,
+    title: 'Gry w lesie',
+    tagline: 'Forest Games & Opencaching',
+    description: 'Przed głównym obozem rozgrzewamy się. Opencaching, tropienie, nawigacja bez GPS. Zespół uczy się współpracy w terenie, czytania mapy, podejmowania decyzji pod presją czasu. W lesie nie ma wersji roboczej.',
+    highlights: ['Opencaching', 'Nawigacja terenowa', 'Współpraca pod presją', 'Czytanie mapy']
   }
 ];
 
@@ -43,13 +43,13 @@ export default function Scenarios() {
       <div className="relative z-10 container mx-auto px-6">
         <div className="text-center mb-16 text-white">
           <div className="inline-block bg-emerald-700/50 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-            <span className="text-sm font-semibold">Przykładowe formaty</span>
+            <span className="text-sm font-semibold">Przykładowe scenariusze</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Jak może wyglądać executive retreat?
+            Jak to może wyglądać?
           </h2>
           <p className="text-xl text-emerald-100 max-w-2xl mx-auto">
-            Każdy program projektujemy indywidualnie pod zarząd. To nie są szablony - to scenariusze, które działają.
+            Każdy wyjazd dostosowujemy do zespołu. To tylko przykłady.
           </p>
         </div>
 
@@ -93,11 +93,11 @@ export default function Scenarios() {
         <div className="mt-16 text-center">
           <div className="bg-emerald-800/30 backdrop-blur-sm border border-emerald-600/40 rounded-xl p-8 max-w-3xl mx-auto">
             <p className="text-lg text-emerald-50 leading-relaxed mb-4">
-              <span className="text-emerald-300 font-semibold">Uwaga:</span> To nie są gotowe pakiety. 
-              Każdy retreat projektujemy pod konkretny zarząd. Rozmawiamy o wyzwaniach, celach, dynamice zespołu. 
+              To tylko przykłady. Każdy obóz projektujemy indywidualnie. 
+              <span className="text-emerald-300 font-semibold">Zaczynamy od potrzeb, kończymy gotowym retreatem.</span>
             </p>
             <p className="text-emerald-100">
-              Las jest narzędziem. Wy decydujecie, do czego go używamy.
+              Organizujemy przestrzeń i bezpieczeństwo. Wasz zespół decyduje, co się w niej wydarzy.
             </p>
           </div>
         </div>
