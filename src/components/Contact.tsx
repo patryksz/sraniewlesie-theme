@@ -143,18 +143,6 @@ export default function Contact() {
             )}
 
             <form className="space-y-6" onSubmit={handleSubmit}>
-              <div>
-                <label htmlFor="company" className="block text-sm font-semibold mb-2">Firma *</label>
-                <input
-                  type="text"
-                  id="company"
-                  name="company"
-                  placeholder="Nazwa firmy"
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-600 focus:border-transparent outline-none transition-all"
-                />
-              </div>
-
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold mb-2">Imię i nazwisko *</label>
@@ -169,12 +157,12 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="position" className="block text-sm font-semibold mb-2">Stanowisko *</label>
+                  <label htmlFor="position" className="block text-sm font-semibold mb-2">Firma *</label>
                   <input
                     type="text"
-                    id="position"
-                    name="position"
-                    placeholder="CEO / Partner / Board Member"
+                    id="company"
+                    name="company"
+                    placeholder="Nazwa firmy"
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-600 focus:border-transparent outline-none transition-all"
                   />
